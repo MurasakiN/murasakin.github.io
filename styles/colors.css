@@ -1,0 +1,59 @@
+:root {
+    --background-primary: #F2A488;
+    --background-secondary: #F2F0D5;
+    --accent-primary: #1C4259;
+    --accent-secondary: #F2B872;
+    --basic-accent: #F2DE79;
+}
+
+body {
+    background-color: var(--background-secondary);
+}
+
+.navbar-light {
+    background-color: var(--background-primary)!important;
+}
+
+.bg-light {
+    background-color: var(--background-primary)!important;
+}
+
+.bg-img-bookshelf {
+    background-image: url(/assets/bookshelf.jpg);
+    background-size: cover;
+}
+
+.bg-gradient-transparent {
+    background-image: linear-gradient(to right, var(--background-secondary) 52%, transparent 80%);
+}
+@media(max-width: 768px) {
+    .bg-gradient-transparent {
+        background-color: var(--background-secondary);
+        opacity: 0.80;
+    }
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--accent-primary);
+}
+
+.table {
+    border-color: var(--accent-secondary);
+}
+
+.thead-light th {
+    background-color: var(--accent-secondary)!important;
+}
+
+.table-bordered td, 
+.table-bordered th {
+    border-color: var(--accent-secondary)!important;
+}
+
+.bg-primary {
+    background-color: var(--background-primary)!important;
+}
